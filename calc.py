@@ -18,4 +18,7 @@ if op == '/':
     print('the quotient is', a / b)
 
 if op == '*':
-    print('the product is', a * b)
+    m = 0
+    for i in range(a):
+        m += b
+    print('the product is', m)
