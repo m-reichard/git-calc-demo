@@ -5,7 +5,7 @@ b = int(input())
 print('enter an operation')
 op = input()
 
-if op not in '+-/*':
+if op not in '+-/*%':
     print('unknown op')
 
 if op == '+':
@@ -22,3 +22,6 @@ if op == '*':
     for i in range(a):
         m += b
     print('the product is', m)
+    
+if op == '%':
+    print('a mod b is', a % b)
