@@ -5,7 +5,7 @@ b = int(input())
 print('enter an operation')
 op = input()
 
-if op not in '+-/':
+if op not in '+-/*':
     print('unknown op')
 
 if op == '+':
@@ -16,3 +16,6 @@ if op == '-':
 
 if op == '/':
     print('the quotient is', a / b)
+
+if op == '*':
+    print('the product is', a * b)
