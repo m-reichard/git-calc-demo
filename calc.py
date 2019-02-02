@@ -1,3 +1,4 @@
+print('Welcome to the calculator!\n')
 print('enter two numbers')
 a = int(input())
 b = int(input())
