@@ -5,7 +5,7 @@ b = int(input())
 print('enter an operation')
 op = input()
 
-if op not in '+-/*%':
+if op not in '+-/*%^':
     print('unknown op')
 
 if op == '+':
@@ -25,3 +25,6 @@ if op == '*':
     
 if op == '%':
     print('a mod b is', a % b)
+    
+if op == '^':
+    print('a power b is', a ** b)
